@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,500&display=swap" rel="stylesheet">
+	<title>Catálogo</title>
+</head>
+<body>
+	<div>
+		<h1>CATÁLOGO</h1>
+	</div>
+	<header><!--PADRE DE NAV Y A-->
+       <a href="../index.html"><img src="../media/Logo.png" alt="Logo DECORTEX"></a>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li ><a href="../pages/catalogo.html">Catálogo</a></li>
+            <li><a href="../pages/quienes_somos.html">¿Quiénes somos?</a></li>
+            <li><a href="../pages/alta_decoracion.html">Alta decoración</a></li>
+            <li><a href="../pages/complementos.html">Complementos</a></li>
+            <li><a href="../pages/otros_productos.html">Otros productos</a></li>
+            <li><a href="../pages/contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+    </header>
+        <main>
+
+      <section class="alinear">
+        <table class="tabla">
+
+          <tr>
+            <td></td>
+            <td>Paladio</td>
+            <td>Coverblock</td>
+            <td>Aquarel</td>
+            <td>Covermix</td>
+          </tr>
+
+          <tr>
+            <td>Litro</td>
+            <td>$150</td>
+            <td>$165</td>
+            <td>$185</td>
+            <td>$190</td>
+          </tr>
+
+          <tr>
+            <td>Galón</td>
+            <td>$350</td>
+            <td>$365</td>
+            <td>$385</td>
+            <td>$390</td>
+          </tr>
+
+          <tr>
+            <td>Cubeta</td>
+            <td>$550</td>
+            <td>$565</td>
+            <td>$585</td>
+            <td>$590</td>
+          </tr>
+
+        </table>
+      </section>
+
+<br>
+      <section>
+        <form>
+            <p>Nombre:</p>
+            <input type="text" name="nombre" value="">
+            <p>Apellido:</p>
+            <input type="text" name="apellido" value="">
+            <p>Email:</p>
+            <input type="text" name="email" value="">
+            <br>
+            <select name="Metodo de Pago">
+              <option value="L">PayPal</option>
+              <option value="M">Tarjeta de Debito y/o Crédito</option>
+              <option value="S">Mercado Pago</option>
+            </select>
+            <br>
+            <div class="term_cond">Acepta términos y condiciones</div>
+            <input type="checkbox" name="acepta" value="1" />
+            <br>
+            <textarea name="name" rows="8" cols="80"></textarea>
+            <br>
+            <input type="submit" name="submit" value="Enviar">
+            <input type="reset" name="reset" value="Limpiar Formulario">
+
+
+        </form>
+      </section>
+
+    </main>
+</body>
+</html>
